@@ -76,3 +76,10 @@ h1 {
   position: relative;
   top: -32px;
 }
+
+#sourceGitHub {
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
