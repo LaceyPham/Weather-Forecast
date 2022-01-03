@@ -42,7 +42,7 @@ h1 {
 }
 
 .weather-icon {
-  vertical-align: top;
+  top: 5px;
 }
 
 .information {
