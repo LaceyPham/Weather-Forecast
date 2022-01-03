@@ -19,6 +19,8 @@ let days = [
   "Friday",
   "Saturday",
 ];
+let iconElement = document.querySelector("#icon");
+
 function showWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
@@ -31,6 +33,10 @@ function showWeather(response) {
   );
   document.querySelector("#pressure").innerHTML = response.data.main.pressure;
   document.querySelector("#notes").innerHTML = response.data.weather[0].main;
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
 }
 
 function searchCity(city) {
