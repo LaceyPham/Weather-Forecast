@@ -32,11 +32,13 @@ function showWeather(response) {
     response.data.wind.speed
   );
   document.querySelector("#pressure").innerHTML = response.data.main.pressure;
-  document.querySelector("#notes").innerHTML = response.data.weather[0].main;
+  document.querySelector("#notes").innerHTML =
+    response.data.weather[0].description;
   iconElement.setAttribute(
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchCity(city) {
