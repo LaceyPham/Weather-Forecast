@@ -83,18 +83,3 @@ h1 {
   margin: 0 auto;
   text-align: center;
 }
-
-#pressure {
-  color: #ffafaf;
-  font-style: bold;
-}
-
-#humidity {
-  color: #ffafaf;
-  font-style: bold;
-}
-
-#wind {
-  color: #ffafaf;
-  font-style: bold;
-}
