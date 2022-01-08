@@ -76,8 +76,8 @@ h1 {
   top: -32px;
 }
 
-.active{
-  color:#36454f;
+.active {
+  color: #36454f;
 }
 
 #sourceGitHub {
@@ -89,4 +89,9 @@ h1 {
 
 a:link {
   text-decoration: none;
+}
+
+.weather-forecast-date,
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }
