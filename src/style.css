@@ -9,7 +9,7 @@ body {
 }
 h1 {
   font-family: "Yellowtail", cursive;
-  font-weight: 700px;
+  font-weight: 900px;
   font-size: 50px;
   color: #ffafaf;
 }
@@ -38,7 +38,7 @@ h1 {
 }
 
 ::placeholder {
-  font-size: 14px;
+  font-size: 14.5px;
 }
 .col-6 {
   padding-left: 60px;
@@ -75,6 +75,12 @@ h1 {
 #current-location-button:hover {
   background-color: #ffafaf;
   color: white;
+}
+
+#pressure,
+#wind,
+#humidity {
+  color: #df6b6b;
 }
 
 .daily-weather {
