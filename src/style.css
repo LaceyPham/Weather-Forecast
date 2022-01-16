@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-attachment: fixed;
   background: linear-gradient(
     44.8deg,
@@ -46,6 +46,17 @@ h1 {
   color: #36454f;
 }
 
+.weather-forecast-date,
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
 .weather-icon {
   vertical-align: top;
 }
@@ -89,9 +100,4 @@ h1 {
 
 a:link {
   text-decoration: none;
-}
-
-.weather-forecast-date,
-.weather-forecast-temperature-min {
-  opacity: 0.6;
 }
