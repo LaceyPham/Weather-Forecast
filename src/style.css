@@ -1,5 +1,5 @@
 body {
- font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-attachment: fixed;
   background: linear-gradient(
     44.8deg,
@@ -25,14 +25,20 @@ h1 {
 
 #date {
   font-family: "Merriweather", serif;
+  padding-bottom: -50px;
 }
 
 #notes {
   font-family: "Merriweather", serif;
+  margin-top: 10px;
 }
 
 .search-city-bar {
   margin: 25px 0px 0px -1px;
+}
+
+::placeholder {
+  font-size: 11px;
 }
 
 .col-6 {
@@ -59,6 +65,7 @@ h1 {
 
 .weather-icon {
   vertical-align: top;
+  color: rgba(255, 136, 102, 0.67) -53.1%;
 }
 
 .information {
@@ -87,10 +94,6 @@ h1 {
   top: -32px;
 }
 
-.active {
-  color: #36454f;
-}
-
 #sourceGitHub {
   font-family: "Montserrat", sans-serif;
   display: block;
@@ -101,4 +104,3 @@ h1 {
 a:link {
   text-decoration: none;
 }
-
