@@ -91,6 +91,10 @@ h1 {
   color: #36454f;
 }
 
+::placeholder {
+  font-size: 11px;
+}
+
 #sourceGitHub {
   font-family: "Montserrat", sans-serif;
   display: block;
