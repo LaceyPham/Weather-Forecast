@@ -9,7 +9,7 @@ body {
 }
 h1 {
   font-family: "Yellowtail", cursive;
-  font-weight: 900px;
+  font-weight: 700px;
   font-size: 50px;
   color: #ffafaf;
 }
@@ -38,7 +38,7 @@ h1 {
 }
 
 ::placeholder {
-  font-size: 14.5px;
+  font-size: 11px;
 }
 .col-6 {
   padding-left: 60px;
@@ -59,7 +59,10 @@ h1 {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+}
+
+.weather-forecast-temperatures {
+  color: #df6b6b;
 }
 
 .weather-icon {
@@ -77,10 +80,12 @@ h1 {
   color: white;
 }
 
-#pressure,
-#wind,
-#humidity {
+.detailInformation {
   color: #df6b6b;
+}
+
+.row {
+  font-family: "Montserrat", sans-serif;
 }
 
 .daily-weather {
