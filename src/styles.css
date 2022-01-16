@@ -40,7 +40,6 @@ h1 {
 ::placeholder {
   font-size: 11px;
 }
-
 .col-6 {
   padding-left: 60px;
   padding-top: 10px;
@@ -92,6 +91,10 @@ h1 {
 .units {
   position: relative;
   top: -32px;
+}
+
+.weather-icon.active {
+  color: black;
 }
 
 #sourceGitHub {
